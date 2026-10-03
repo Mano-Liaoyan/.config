@@ -1,7 +1,4 @@
 {
-  "env": {
-    "CLAUDE_CODE_PLUGIN_DIRS": "<HOME>/.claude/local-plugins/statusline-footer"
-  },
   "statusLine": {
     "type": "command",
     "command": "node \"<HOME>/.claude/statusline.mjs\"",

@@ -1,9 +1,7 @@
 #!/usr/bin/env node
 // Claude Code status line, right-aligned on one row:
-//   mode │ fast mode │ model · effort │ git branch │ context window usage
+//   fast mode │ model · effort │ git branch │ context window usage
 // Claude Code pipes the session JSON to stdin; we print one ANSI-colored line.
-// The permission mode arrives as CLAUDE_STATUSLINE_MODE, set by the
-// statusline-footer plugin (~/.claude/local-plugins/statusline-footer).
 
 import { execFileSync } from 'node:child_process';
 
@@ -23,7 +21,6 @@ const C = {
   purple: '#bb9af7',
   cyan: '#7dcfff',
   blue: '#7aa2f7',
-  teal: '#73daca',
   amber: '#e0af68',
   green: '#9ece6a',
   orange: '#ff9e64',
@@ -64,16 +61,6 @@ const cellWidth = (s) => {
   for (const ch of s.replace(/\x1b\[[0-9;]*m/g, '')) width += isWide(ch.codePointAt(0)) ? 2 : 1;
   return width;
 };
-
-// Permission mode; shown only when it is not the default
-const MODES = {
-  auto: fg(C.teal, bold('⏵⏵ AUTO')),
-  acceptEdits: fg(C.purple, bold('⏵⏵ ACCEPT EDITS')),
-  plan: fg(C.cyan, bold('⏸ PLAN')),
-  bypassPermissions: fg(C.red, bold('⏵⏵ BYPASS')),
-  dontAsk: fg(C.amber, bold("⏵⏵ DON'T ASK")),
-};
-const mode = MODES[process.env.CLAUDE_STATUSLINE_MODE] ?? null;
 
 // Fast mode
 const fast = data.fast_mode === true
@@ -142,7 +129,7 @@ const contextOf = (barCells) => {
 };
 
 const layout = (gap, barCells) =>
-  [mode, fast, model, branch, contextOf(barCells)].filter(Boolean).join(fg(C.muted, `${gap}│${gap}`));
+  [fast, model, branch, contextOf(barCells)].filter(Boolean).join(fg(C.muted, `${gap}│${gap}`));
 
 // Right-align: the footer draws the status line inside 2 columns of padding
 // on each side; one more column of slack keeps the end from being truncated.

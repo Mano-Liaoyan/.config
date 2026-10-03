@@ -1,5 +1,0 @@
-{
-  "name": "statusline-footer",
-  "version": "0.1.0",
-  "description": "Folds the prompt's permission-mode hint into the status line so the footer is one line"
-}
