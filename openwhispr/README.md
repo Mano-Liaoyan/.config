@@ -1,4 +1,11 @@
-# OpenWhispr dictionary
+# OpenWhispr
+
+For Linux installation or paste failures, follow
+[the KDE Wayland and Ghostty setup guide](linux-setup.md). It includes the
+verified input-group and automatic-paste troubleshooting history, the portable
+Ghostty setting, and the checks agents must repeat on another machine.
+
+## Programming dictionary
 
 The dictionary imported on Windows on 2026-10-03: **500 programming terms plus
 the existing `OpenWhispr` entry (501 unique entries)**. `dictionary.txt` is the

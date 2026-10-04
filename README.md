@@ -4,8 +4,21 @@ config files
 ## OpenWhispr
 
 [`openwhispr/`](openwhispr/README.md) contains the portable programming
-dictionary and a Python script for restoring it on Linux. Agents setting up
-OpenWhispr on a new machine should follow its restore and verification steps.
+dictionary and a Python script for restoring it on Linux. The
+[KDE Wayland and Ghostty setup guide](openwhispr/linux-setup.md) records the
+input-group and automatic-paste fixes verified on 2026-10-04, including the
+steps that were insufficient on their own and the final verification.
+
+[`ghostty/openwhispr.conf`](ghostty/openwhispr.conf) is the setting to merge into
+an existing Ghostty config. Pulling this repository does not automatically
+change Linux groups, install snippets, or refresh running apps; agents should
+follow the setup and verification steps.
+
+## Codex
+
+[`codex/`](codex/README.md) contains the persistent **Approve for me** defaults,
+instructions for merging them without replacing personal config, and the
+observed limits of backend and desktop verification.
 
 ## Claude Code
 

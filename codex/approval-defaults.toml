@@ -1,0 +1,4 @@
+# Merge these root-level keys into ~/.codex/config.toml before any [table].
+approval_policy = "on-request"
+approvals_reviewer = "auto_review"
+default_permissions = ":workspace"
