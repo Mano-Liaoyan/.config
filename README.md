@@ -1,6 +1,12 @@
 # .config
 config files
 
+## OpenWhispr
+
+[`openwhispr/`](openwhispr/README.md) contains the portable programming
+dictionary and a Python script for restoring it on Linux. Agents setting up
+OpenWhispr on a new machine should follow its restore and verification steps.
+
 ## Claude Code
 
 `claude-code/` holds a one-line, right-aligned Claude Code status line (mode,

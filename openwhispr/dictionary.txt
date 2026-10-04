@@ -1,0 +1,501 @@
+OpenWhispr
+GitHub
+Git
+DevOps
+CI/CD
+C#
+JavaScript
+TypeScript
+C++
+.NET
+Node.js
+React
+Python
+Docker
+Kubernetes
+SQL
+PostgreSQL
+GitLab
+GitHub Actions
+NuGet
+ASP.NET Core
+Entity Framework Core
+LINQ
+PowerShell
+VS Code
+API
+SDK
+CLI
+JSON
+YAML
+GraphQL
+gRPC
+OAuth 2.0
+JWT
+HTTP
+HTTPS
+npm
+pnpm
+pull request
+code review
+rebase
+cherry-pick
+worktree
+monorepo
+MCP
+LLM
+RAG
+TypeORM
+Prisma
+Redis
+Azure
+F#
+Objective-C
+Java
+Kotlin
+Swift
+Golang
+Rust
+Ruby
+PHP
+Scala
+Dart
+Lua
+Perl
+Haskell
+Elixir
+Erlang
+Clojure
+Groovy
+Solidity
+WebAssembly
+Bash
+T-SQL
+PL/SQL
+HTML
+CSS
+Sass
+SCSS
+JSONL
+JSON Schema
+TOML
+XML
+Markdown
+MDX
+JSX
+TSX
+Protocol Buffers
+BSON
+UTF-8
+Base64
+regex
+Bitbucket
+GitLab CI
+GitOps
+Git LFS
+Git Bash
+GitHub CLI
+merge request
+squash
+merge conflict
+submodule
+pre-commit
+gitignore
+git diff
+git stash
+git bisect
+git blame
+git reflog
+git fetch
+git pull
+git push
+Visual Studio
+IntelliJ IDEA
+PyCharm
+WebStorm
+Rider
+Android Studio
+Xcode
+Neovim
+Vim
+Emacs
+Sublime Text
+Notepad++
+JetBrains
+ReSharper
+LINQPad
+Postman
+Insomnia
+DBeaver
+DataGrip
+React Native
+React DOM
+Next.js
+Vue.js
+Nuxt
+Angular
+Svelte
+SvelteKit
+Astro
+SolidJS
+Qwik
+Vite
+webpack
+Rollup
+Parcel
+esbuild
+SWC
+Babel
+Turbopack
+Tailwind CSS
+Bootstrap
+Material UI
+Ant Design
+shadcn/ui
+Radix UI
+Chakra UI
+Vuetify
+Element Plus
+Storybook
+Redux
+Redux Toolkit
+Zustand
+MobX
+Pinia
+RxJS
+TanStack Query
+React Hook Form
+Zod
+Axios
+useState
+useEffect
+useMemo
+useCallback
+useRef
+Server Components
+SSR
+SSG
+ISR
+hydration
+.NET Framework
+.NET Core
+Blazor
+Razor
+SignalR
+.NET MAUI
+WPF
+WinForms
+WinUI
+Avalonia
+MVVM
+MSBuild
+Roslyn
+Kestrel
+IIS
+Dapper
+MediatR
+AutoMapper
+FluentValidation
+Serilog
+NLog
+Hangfire
+Quartz.NET
+Polly
+Deno
+Bun
+Express.js
+NestJS
+Fastify
+Hono
+Django
+Flask
+FastAPI
+Spring Boot
+Spring Security
+Hibernate
+Quarkus
+Micronaut
+Laravel
+Symfony
+Ruby on Rails
+Gin
+Phoenix
+MySQL
+MariaDB
+SQLite
+SQL Server
+Oracle Database
+MongoDB
+Valkey
+Memcached
+Elasticsearch
+OpenSearch
+Cassandra
+ScyllaDB
+DynamoDB
+Cosmos DB
+Neo4j
+CouchDB
+CockroachDB
+TiDB
+ClickHouse
+DuckDB
+TimescaleDB
+InfluxDB
+Snowflake
+BigQuery
+Redshift
+Supabase
+Firebase
+PlanetScale
+Drizzle ORM
+Sequelize
+SQLAlchemy
+Alembic
+Flyway
+Liquibase
+JDBC
+ODBC
+ACID
+NoSQL
+ETL
+CDC
+WAL
+MVCC
+B-tree
+sharding
+upsert
+deadlock
+DevSecOps
+Dockerfile
+Docker Compose
+K8s
+kubectl
+Helm
+Kustomize
+Podman
+containerd
+Terraform
+OpenTofu
+Pulumi
+Ansible
+Packer
+Vagrant
+Jenkins
+Argo CD
+Tekton
+CircleCI
+Buildkite
+Azure DevOps
+AWS
+Amazon EC2
+Amazon S3
+AWS Lambda
+Amazon EKS
+Amazon ECS
+Amazon RDS
+Amazon SQS
+Amazon SNS
+CloudFormation
+AKS
+Google Cloud
+GKE
+Cloud Run
+Cloudflare
+Vercel
+Netlify
+Nginx
+Traefik
+Caddy
+Envoy
+HAProxy
+Istio
+Linkerd
+HTTP/2
+HTTP/3
+TCP/IP
+UDP
+QUIC
+DNS
+DNS over HTTPS
+TLS
+SSL
+mTLS
+SSH
+SFTP
+WebSocket
+SSE
+REST API
+RESTful
+OpenAPI
+Swagger
+webhook
+OAuth
+OpenID Connect
+JWK
+JWKS
+SAML
+SSO
+MFA
+TOTP
+FIDO2
+WebAuthn
+RBAC
+ABAC
+ACL
+IAM
+CORS
+CSRF
+XSS
+SSRF
+SQL injection
+CSP
+HSTS
+OWASP
+CVE
+CVSS
+bcrypt
+Argon2
+SHA-256
+GUI
+IDE
+LSP
+AST
+JIT
+AOT
+FFI
+ABI
+IPC
+RPC
+POSIX
+Linux
+Ubuntu
+Debian
+Alpine Linux
+WSL
+WSL2
+systemd
+macOS
+ARM64
+x86-64
+AMD64
+RISC-V
+NUMA
+SIMD
+CUDA
+OpenCL
+SOLID
+DRY
+KISS
+YAGNI
+DDD
+TDD
+BDD
+CQRS
+event sourcing
+dependency injection
+inversion of control
+idempotency
+microservices
+middleware
+backpressure
+circuit breaker
+load balancer
+reverse proxy
+pub/sub
+race condition
+Yarn
+npx
+pip
+pipx
+uv
+Poetry
+Conda
+PyPI
+Maven
+Gradle
+Cargo
+CMake
+Ninja
+Bazel
+GCC
+Clang
+LLVM
+MSVC
+ESLint
+Prettier
+Biome
+Ruff
+mypy
+Pyright
+SonarQube
+SemVer
+Jest
+Vitest
+Mocha
+Chai
+Cypress
+Playwright
+Selenium
+pytest
+JUnit
+NUnit
+xUnit
+Testcontainers
+BenchmarkDotNet
+k6
+JMeter
+OpenTelemetry
+Prometheus
+Grafana
+Loki
+Jaeger
+Datadog
+Sentry
+Model Context Protocol
+tool calling
+function calling
+prompt engineering
+fine-tuning
+embeddings
+tokenizer
+vector database
+PyTorch
+TensorFlow
+Hugging Face
+Transformers
+ONNX
+TensorRT
+vLLM
+Ollama
+llama.cpp
+LangChain
+LangGraph
+LlamaIndex
+Semantic Kernel
+Qdrant
+Milvus
+pgvector
+FAISS
+Chroma
+Pinecone
+NumPy
+pandas
+Polars
+SciPy
+scikit-learn
+Jupyter
+Apache Spark
+Apache Kafka
+RabbitMQ
+NATS
+Flutter
+SwiftUI
+UIKit
+Jetpack Compose
+Electron
+Tauri
+Qt
+CocoaPods
+Capacitor
+WebView
